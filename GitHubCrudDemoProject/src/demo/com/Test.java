@@ -6,6 +6,11 @@ public class Test {
 		
 		System.out.println("m1-----Test");
 	}
+
+	public void m3(){
+
+		System.out.println("M3----Test");
+	}
 	
 	public static void main(String[] args) {
 		
