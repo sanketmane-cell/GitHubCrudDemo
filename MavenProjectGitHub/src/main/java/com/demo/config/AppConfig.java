@@ -8,7 +8,7 @@ import com.demo.model.Student;
 @Configuration
 public class AppConfig {
 
-	@Bean
+	@Bean(name="stu")
 	public Student s1() {
 		Student s=new Student();
 		s.setRollno(101);
